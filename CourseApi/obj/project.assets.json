@@ -871,14 +871,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Git\\CourseApi\\CourseApi.csproj",
+      "projectUniqueName": "D:\\Kesaria\\try3\\VSCodeWebAPI\\CourseApi\\CourseApi.csproj",
       "projectName": "CourseApi",
-      "projectPath": "D:\\Git\\CourseApi\\CourseApi.csproj",
+      "projectPath": "D:\\Kesaria\\try3\\VSCodeWebAPI\\CourseApi\\CourseApi.csproj",
       "packagesPath": "C:\\Users\\v-vikgupta\\.nuget\\packages\\",
-      "outputPath": "D:\\Git\\CourseApi\\obj\\",
+      "outputPath": "D:\\Kesaria\\try3\\VSCodeWebAPI\\CourseApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Git\\CourseApi\\NuGet.Config",
+        "D:\\Kesaria\\try3\\VSCodeWebAPI\\CourseApi\\NuGet.Config",
         "C:\\Users\\v-vikgupta\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

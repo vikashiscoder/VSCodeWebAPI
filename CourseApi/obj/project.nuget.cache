@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aqSrAVocuH9jCbtlUFT8Bdq9g6DDRRfsXFgd2dsLrbXiXDqBlC5xP8PB1Xx6QPzBd0/oW52f9MM/Axd6USlrlg==",
+  "dgSpecHash": "jTTGFieHqWkSEbkrxSXPJGnd2P4mKOmWhKqTbSST9DijoOHa2/V4evYnnlzAEMBWtDfpT2YU5wFjKhWx1m4byA==",
   "success": true,
-  "projectFilePath": "D:\\Git\\CourseApi\\CourseApi.csproj",
+  "projectFilePath": "D:\\Kesaria\\try3\\VSCodeWebAPI\\CourseApi\\CourseApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\v-vikgupta\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\v-vikgupta\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",

@@ -32,10 +32,29 @@ builder.Services.AddDbContext<AppDbContext>(x => x.UseInMemoryDatabase("InMemory
 10) dotnet run
 
 
+DOCKER
+-----------
+Install docker desktop. Open the same.
+1) Open Command Palette (Ctrl+Shift+P) and use Docker: Add Docker Files to Workspace... command
+   Select 80 as port number. Now 80 is the internal port in the container
+2) Open Command Palette (Ctrl+Shift+P) and issue Docker Images: Build Image... command.
+3) docker run -p 2001:80 imagename
+   docker run -p 2001:80 vscodewebapi/latest
+   2001:80--> is the mapping of 80 internal port to 2001 port
+4) Access site ... http://localhost:2001/api/country
+
+Note: Debug container app with visual studio
+https://docs.microsoft.com/en-us/visualstudio/containers/edit-and-refresh?view=vs-2022
+
+
+Create image in Azure Container Registry
+------------------------------------------
+1) Open Command Palette (Ctrl+Shift+P) and use Azure Container Registry : Create Registry
+2) Open Command Palette (Ctrl+Shift+P) and use Azure Container Registry : Build Image in Azure
+Now you can see the image in NewRegistry--> Repositories
+
+
 Notes:
 Below is the command to scaffold context and models in DB first approach
 dotnet ef dbcontext scaffold "Server=DESKTOP-NGF7CC4\SQLEXPRESS;Database=Learn_DB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.InMemory --output-dir Models
-
-To Deploy to Azure Container Registry
-https://docs.microsoft.com/en-us/azure/container-apps/deploy-visual-studio-code
 

@@ -11,17 +11,26 @@ STEPS TO CREATE A NEW .NET WEBAPI FROM VS CODE
     <add key="NuGet Public" value="https://api.nuget.org/v3/index.json" />
   </packageSources>   
 </configuration>
+
 4) In VS Code install c#, Nuget package manager
+
 5) dotnet tool install --global dotnet-ef --version 3.1.4
+
 6) dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
 7) dotnet add package Microsoft.EntityFrameworkCore.Design
+
 8) Add folder models, file Country.cs, DbContext.cs
+
 9) Changes to program.cs
+
 using Microsoft.EntityFrameworkCore;
 using CourseApi.Models;
 
 builder.Services.AddDbContext<AppDbContext>(x => x.UseInMemoryDatabase("InMemoryDB"));
+
 8) dotnet run
+
 
 Notes:
 Below is the command to scaffold context and models in DB first approach

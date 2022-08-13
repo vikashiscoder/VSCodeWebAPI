@@ -35,3 +35,7 @@ builder.Services.AddDbContext<AppDbContext>(x => x.UseInMemoryDatabase("InMemory
 Notes:
 Below is the command to scaffold context and models in DB first approach
 dotnet ef dbcontext scaffold "Server=DESKTOP-NGF7CC4\SQLEXPRESS;Database=Learn_DB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.InMemory --output-dir Models
+
+To Deploy to Azure Container Registry
+https://docs.microsoft.com/en-us/azure/container-apps/deploy-visual-studio-code
+

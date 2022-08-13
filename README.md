@@ -29,7 +29,7 @@ using CourseApi.Models;
 
 builder.Services.AddDbContext<AppDbContext>(x => x.UseInMemoryDatabase("InMemoryDB"));
 
-8) dotnet run
+10) dotnet run
 
 
 Notes:
